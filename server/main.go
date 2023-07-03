@@ -12,7 +12,7 @@ type Milestone struct {
 func main() {
 	r := gin.Default()
 
-	r.GET("/milestones", func(c *gin.Context) {
+	r.GET("/api/milestones", func(c *gin.Context) {
 		milestone := []Milestone{
 			{ID: 1, Title: "Milestone 1"},
 			{ID: 2, Title: "Milestone 2"},
