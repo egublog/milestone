@@ -1,4 +1,4 @@
-module github.com/egublog/milestone
+module github.com/egublog/milestone/server
 
 go 1.20
 
