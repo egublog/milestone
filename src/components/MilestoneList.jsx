@@ -19,10 +19,10 @@ const MilestoneList = () => {
 
   return (
     <div>
-      <h1>Milestones List</h1>
+      <h1>Milestone List</h1>
       <ul>
         {milestones.map((milestone) => (
-          <li key={milestone.ID}>{milestone.Title}</li>
+          <li key={milestone.id}>{milestone.title}</li>
         ))}
       </ul>
     </div>
