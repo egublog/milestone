@@ -1,11 +1,14 @@
-import './App.css';
-import MilestoneList from './components/MilestoneList';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MilestoneListPage from "./pages/MilestoneListPage";
 
 function App() {
   return (
-    <div>
-      <MilestoneList />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MilestoneListPage />} />
+      </Routes>
+    </Router>
   );
 }
 
