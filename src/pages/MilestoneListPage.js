@@ -1,4 +1,4 @@
-import MilestoneList from "../components/MilestoneList";
+import MilestoneList from "../components/milestone/MilestoneList";
 
 const MilestoneListPage = () => {
   return (
