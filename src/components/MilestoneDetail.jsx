@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 const MilestoneDetail = () => {
   const [milestone, setMilestone] = useState({});
   const milestoneId = useParams().id;
- 
+
   useEffect(() => {
     const fetchMilestone = async () => {
       try {

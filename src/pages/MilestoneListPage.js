@@ -7,6 +7,6 @@ const MilestoneListPage = () => {
       <MilestoneList />
     </div>
   );
-}
+};
 
 export default MilestoneListPage;
